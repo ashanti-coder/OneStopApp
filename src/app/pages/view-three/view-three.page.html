@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Previous Work</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/services"></ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="card ion-margin first-card">
+    <ion-slides [options]="options">
+      <ion-slide *ngFor="let pop of [1]">
+        <div class="img-wrapper">
+          <ion-img src="https://tse2.mm.bing.net/th?id=OIP.dHBN0gIOd-sMJwyX7RuovQHaFj&pid=Api&P=0&w=238&h=179"></ion-img>
+        </div>
+      </ion-slide>
+      <ion-slide *ngFor="let pop of [2]">
+        <div class="img-wrapper">
+          <ion-img src="http://www.groomedhome.com/media/uploads/2013/10/greencleaning.jpg" ></ion-img>
+        </div>
+      </ion-slide>
+      <ion-slide *ngFor="let pop of [3]">
+        <div class="img-wrapper">
+          <ion-img src="http://www.mama-knows.com/wp-content/uploads/2010/05/Window-cleaning.jpg"></ion-img>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <h3>
+        Washing windows is what I do the best. I cleaned many windows before. See pictures above.
+      </h3>
+      <ion-card-title>
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+

@@ -1,0 +1,7 @@
+{
+  "name": "onestopuser",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

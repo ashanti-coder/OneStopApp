@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Previous Work</ion-title>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/services"></ion-back-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="card ion-margin first-card">
+    <ion-slides [options]="options">
+      <ion-slide *ngFor="let pop of [1]">
+        <div class="img-wrapper">
+          <ion-img src="https://tse4.mm.bing.net/th?id=OIP.Azb4bAL1hyARsNcIn8P_hgHaFj&pid=Api&P=0&w=218&h=164"></ion-img>
+        </div>
+      </ion-slide>
+      <ion-slide *ngFor="let pop of [2]">
+        <div class="img-wrapper">
+          <ion-img src="https://todayshomeowner.com/wp-content/uploads/2009/03/advertorial-jeld-wen-how-clean-windows-featured.jpg" ></ion-img>
+        </div>
+      </ion-slide>
+      <ion-slide *ngFor="let pop of [3]">
+        <div class="img-wrapper">
+          <ion-img src="https://tse2.mm.bing.net/th?id=OIP.KhPQHqE6R1LZsf5xvEEAqQHaE7&pid=Api&P=0&w=247&h=165"></ion-img>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <h3>
+       I'm an expect in washing windows, I do the good work with my magical hands. See my previous work above.
+      </h3>
+      <ion-card-title>
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      
+    </ion-card-content>
+  </ion-card>
+</ion-content>

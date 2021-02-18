@@ -1,0 +1,49 @@
+.card {
+    border-radius: 14px;
+}
+
+h3 {
+    font-weight: bold;
+    color: black;
+}
+
+.background-image {
+    --background: url(http://wallpapercave.com/wp/g0c4dxk.jpg) 0 0/100% 100% repeat-x;
+    width: 100%;
+}
+
+.avatar {
+    width: 100%;
+}
+
+.back-btn-left {
+    float: left;
+}
+
+.first-card {
+    margin-top: 20px;
+}
+
+.prices {
+    font-weight: bolder;
+}
+
+.back-btn-div {
+    float: left;
+    text-align: left;
+}
+
+ion-item {
+    --background: repeat-x;
+    h2 {
+        font-weight: bold;
+        font-size: 18px;
+        padding-top: 8px;
+    }
+}
+ion-avatar{
+    width: 150%;
+    height: 150%;
+    max-width: 150px;
+    max-height: 150px;
+}
